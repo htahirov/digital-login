@@ -122,6 +122,7 @@ class _LoginPageState extends State<LoginPage> {
 
 ## 🛠️ Need Help?
 If you encounter any issues or need feature requests, feel free to open an issue on:
+<br>
 👉 <a href=https://github.com/htahirov/digital-login/issues>GitHub Issues</a>
 
 ## 📜 License
