@@ -3,12 +3,12 @@ The Digital Login Plugin simplifies the integration of Azerbaijan's digital logi
 
 ![digital-login-page-image](https://github.com/user-attachments/assets/2fb804be-1535-4928-b2cc-ad2749bcde51)
 
-### ✨ Key Features:
+## ✨ Key Features:
 - ✅ Easy Integration: Just provide your clientId, redirectUri, and deep linking scheme, and you're good to go!
 - 📱 Platform Support: Seamlessly works on both Android and iOS.
 - 🔗 Deep Linking: Supports deep linking to handle login redirects back to your app.
-### 🚀 Getting Started:
-##### 1️⃣ Configure Deep Linking
+## 🚀 Getting Started:
+### 1️⃣ Configure Deep Linking
 For Android, ensure deep linking is enabled by adding the following to your AndroidManifest.xml:
 ```xml
 <manifest ...>
@@ -47,14 +47,14 @@ For iOS, configure URL schemes in your Info.plist:
 </plist>
 ```
 
-##### 2️⃣ Install the Plugin
+### 2️⃣ Install the Plugin
 Add the following dependency in your pubspec.yaml:
 ```yaml
 dependencies:
   digital_login: <latest_version>
 ```
   
-##### 3️⃣ Implement Digital Login
+### 3️⃣ Implement Digital Login
 Here's an example of how to use the Digital Login Plugin:
 ```dart
 import 'package:flutter/material.dart';
@@ -109,10 +109,10 @@ class _LoginPageState extends State<LoginPage> {
 }
 ```
 
-### 🔎 How it Works:
+## 🔎 How it Works:
 ##### Developers only need to provide:
- 🔹 `clientId` from Digital Login (for identification of their app). [Digital login gives you]
- 🔹 `redirectUri` (the deep link URI configured in the app). [You give them]
+- 🔹 `clientId` from Digital Login (for identification of their app). [Digital login gives you]
+- 🔹 `redirectUri` (the deep link URI configured in the app). [You give them]
 
 🚀 DigitalLogin Plugin handles the entire authentication process and streams the login code back to your app.
 
