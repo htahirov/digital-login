@@ -1,14 +1,14 @@
-## DIGITAL Login Plugin for Flutter [digital_login]
-The DIGITAL Login Plugin simplifies the integration of Azerbaijan's digital login system, provided by Digital Login, into your Flutter applications. With this plugin, developers can enable secure and streamlined login flows using DIGITAL Login, allowing users to authenticate via the national digital ID system.
+## 🔐 Digital Login Plugin for Flutter [digital_login]
+The Digital Login Plugin simplifies the integration of Azerbaijan's digital login system, provided by Digital Login, into your Flutter applications. With this plugin, developers can enable secure and streamlined login flows using Digital Login, allowing users to authenticate via the national digital ID system.
 
 ![digital-login-page-image](https://github.com/user-attachments/assets/2fb804be-1535-4928-b2cc-ad2749bcde51)
 
-### Key Features:
-- Easy Integration: Just provide your clientId, redirectUri, and deep linking scheme, and you're good to go!
-- Platform Support: Seamlessly works on both Android and iOS.
-- Deep Linking: Supports deep linking to handle login redirects back to your app.
-### Getting Started:
-##### Step 1: Configure Deep Linking
+## ✨ Key Features:
+- ✅ Easy Integration: Just provide your clientId, redirectUri, and deep linking scheme, and you're good to go!
+- 📱 Platform Support: Seamlessly works on both Android and iOS.
+- 🔗 Deep Linking: Supports deep linking to handle login redirects back to your app.
+## 🚀 Getting Started:
+### 1️⃣ Configure Deep Linking
 For Android, ensure deep linking is enabled by adding the following to your AndroidManifest.xml:
 ```xml
 <manifest ...>
@@ -47,14 +47,14 @@ For iOS, configure URL schemes in your Info.plist:
 </plist>
 ```
 
-##### Step 2: Install the Plugin
+### 2️⃣ Install the Plugin
 Add the following dependency in your pubspec.yaml:
 ```yaml
 dependencies:
   digital_login: <latest_version>
 ```
   
-##### Step 3: Implement Digital Login
+### 3️⃣ Implement Digital Login
 Here's an example of how to use the Digital Login Plugin:
 ```dart
 import 'package:flutter/material.dart';
@@ -109,10 +109,20 @@ class _LoginPageState extends State<LoginPage> {
 }
 ```
 
-### How it Works:
+## 🔎 How it Works:
 ##### Developers only need to provide:
-- ClientId from Digital Login (for identification of their app). [Digital login gives you]
-- RedirectUri (the deep link URI configured in the app). [You give them]
-- DigitalLoginPlugin handles the login process and returns the authentication code via stream.
+- 🔹 `clientId` from Digital Login (for identification of their app). [Digital login gives you]
+- 🔹 `redirectUri` (the deep link URI configured in the app). [You give them]
 
-Deep Linking ensures the user is brought back to the app after successful login via the web browser.  
+🚀 DigitalLogin Plugin handles the entire authentication process and streams the login code back to your app.
+
+📲 Deep Linking ensures users return to your app after successful login via the browser.
+
+🔥 Now you're all set! Integrate Digital Login in minutes and provide secure authentication for your users! 🚀
+
+## 🛠️ Need Help?
+If you encounter any issues or need feature requests, feel free to open an issue on:
+👉 <a href=https://github.com/htahirov/digital-login/issues>GitHub Issues</a>
+
+## 📜 License
+📄 Licensed under the <a href="https://github.com/htahirov/digital-login/blob/release/LICENSE">MIT License</a>.
