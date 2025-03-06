@@ -1,5 +1,5 @@
-## DIGITAL Login Plugin for Flutter [digital_login]
-The DIGITAL Login Plugin simplifies the integration of Azerbaijan's digital login system, provided by Digital Login, into your Flutter applications. With this plugin, developers can enable secure and streamlined login flows using DIGITAL Login, allowing users to authenticate via the national digital ID system.
+## Digital Login Plugin for Flutter [digital_login]
+The Digital Login Plugin simplifies the integration of Azerbaijan's digital login system, provided by Digital Login, into your Flutter applications. With this plugin, developers can enable secure and streamlined login flows using Digital Login, allowing users to authenticate via the national digital ID system.
 
 ![digital-login-page-image](https://github.com/user-attachments/assets/2fb804be-1535-4928-b2cc-ad2749bcde51)
 
@@ -115,4 +115,12 @@ class _LoginPageState extends State<LoginPage> {
 - RedirectUri (the deep link URI configured in the app). [You give them]
 - DigitalLoginPlugin handles the login process and returns the authentication code via stream.
 
-Deep Linking ensures the user is brought back to the app after successful login via the web browser.  
+Deep Linking ensures the user is brought back to the app after successful login via the web browser.
+
+## Faced issues?
+If you encounter any problems or you feel the library is missing a feature, please raise a ticket
+on <a href=https://github.com/htahirov/digital-login/issues>GitHub</a> and I'll look
+into it.
+
+## 📃 License
+<a href="https://github.com/htahirov/digital-login/blob/release/LICENSE">MIT License</a>
