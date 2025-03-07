@@ -125,5 +125,10 @@ If you encounter any issues or need feature requests, feel free to open an issue
 <br>
 👉 <a href=https://github.com/htahirov/digital-login/issues>GitHub Issues</a>
 
+## 🧑🏿‍💻 Maintainers
+| 👤 Maintainer | 📧 Contact |
+|--------------|-----------|
+| **Huseyn Tahirov** | [GitHub](https://github.com/htahirov) • [LinkedIn](https://www.linkedin.com/in/huseyn-tahirov/) |
+
 ## 📜 License
 📄 Licensed under the <a href="https://github.com/htahirov/digital-login/blob/release/LICENSE">MIT License</a>.
