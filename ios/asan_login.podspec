@@ -5,14 +5,14 @@
 Pod::Spec.new do |s|
   s.name             = 'digital_login'
   s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.summary          = 'A Flutter plugin for Digital Login integration.'
   s.description      = <<-DESC
-A new Flutter plugin project.
+The Digital Login Plugin simplifies the integration of Azerbaijan's digital login system, provided by Digital Login, into your Flutter applications. With this plugin, developers can enable secure and streamlined login flows using Digital Login, allowing users to authenticate via the national digital ID system.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'appstyle.az'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :path => '.' }
+  s.author           = { 'AppStyle Team' => 'huseyntahirovv@gmail.com' }
+  s.source           = { :http => 'https://github.com/htahirov/digital-login/tree/release' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
@@ -25,5 +25,5 @@ A new Flutter plugin project.
   # required reason APIs, update the PrivacyInfo.xcprivacy file to describe your
   # plugin's privacy impact, and then uncomment this line. For more information,
   # see https://developer.apple.com/documentation/bundleresources/privacy_manifest_files
-  # s.resource_bundles = {'digital_login_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'digital_login_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
