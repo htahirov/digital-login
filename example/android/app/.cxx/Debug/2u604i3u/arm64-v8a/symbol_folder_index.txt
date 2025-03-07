@@ -1,0 +1,1 @@
+/Users/huseyntahirov/FlutterProjects/digital_login/example/build/app/intermediates/cxx/Debug/2u604i3u/obj/arm64-v8a
