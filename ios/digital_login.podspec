@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 The Digital Login Plugin simplifies the integration of Azerbaijan's digital login system, provided by Digital Login, into your Flutter applications. With this plugin, developers can enable secure and streamlined login flows using Digital Login, allowing users to authenticate via the national digital ID system.
                        DESC
-  s.homepage         = 'appstyle.az'
+  s.homepage         = 'https://appstyle.az/'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'AppStyle Team' => 'huseyntahirovv@gmail.com' }
   s.source           = { :http => 'https://github.com/htahirov/digital-login/tree/release' }
