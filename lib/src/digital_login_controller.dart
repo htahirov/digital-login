@@ -54,7 +54,7 @@ class DigitalLoginController {
     try {
       // Generate a unique session ID for tracking the login session.
       final sessionId = UuidHelper.generateUuid();
-      
+
       // Invoke the native method with required parameters.
       await _channel.invokeMethod(
         'performLogin',

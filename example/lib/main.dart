@@ -40,6 +40,7 @@ class _LoginPageState extends State<LoginPage> {
     /// Listen for digital login authentication code from the stream.
     _digitalLoginController.digitalCodeStream.listen((code) {
       logger.log('Digital code received: $code');
+
       /// Handle login success or further authentication steps here.
     });
   }

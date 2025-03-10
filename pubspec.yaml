@@ -1,6 +1,6 @@
 name: digital_login
-description: "The Digital Login Plugin simplifies the integration of Azerbaijan's digital login system, provided by Digital Login, into your Flutter applications. With this plugin, developers can enable secure and streamlined login flows using Digital Login, allowing users to authenticate via the national digital ID system."
-version: 0.0.1
+description: "The Digital Login Plugin simplifies the integration of Azerbaijan's digital login system, provided by Digital Login, into your Flutter applications."
+version: 0.0.2
 repository: https://github.com/htahirov/digital-login/tree/release
 issue_tracker: https://github.com/htahirov/digital-login/issues
 topics: [digital, digital-login, asan, asan-login]
